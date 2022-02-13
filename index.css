@@ -80,7 +80,7 @@ article{
   padding: 20px;
   font-size: 20px;
 }
-div.aftermain img{max-width: 400px; }
+div.aftermain img{max-width: 500px; }
 div.aftermain p{
   font-weight: bold; 
   padding: 0 40px;
@@ -93,7 +93,10 @@ aside h1, article h1{
 }
 
 @media screen and (max-width: 800px)
-{aside, article{width: 100%;}}
+{
+  aside, article{width: 100%;}
+  div.aftermain img{max-width: 250px; }
+}
 
 div.next{
   background: white;
@@ -122,7 +125,7 @@ div.outro{
 div.outro a, div.outro p{color: white;}
 div#abc{
   padding: 80px 30px;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 5.5rem;
 }
 div#abc h1{text-shadow: 2px 2px 3px gray; font-style: italic;}
