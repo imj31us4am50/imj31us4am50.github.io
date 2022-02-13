@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+*{box-sizing: border-box; word-wrap: break-word; user-select: none;}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #737373;
+  font-family: 'Montserrat', sans-serif;
+}
+div.h1{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  font-size: 32px; 
+  font-weight: bold;
+}
+.container{
+  position: relative; 
+  height: 625px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://imj31us4am50.github.io/imgs/mountain.jpg');
+}
+
+
+header{
+  background: white;
+  color: black;
+  font-size: 16px;
+  padding: 1px 1px 1px 30px;
+}
+header h1{
+  font-size: 36px;
+  text-shadow: 2px 2px 3px gray;
+  width: fit-content;
+}
+header p{
+  color: #737373;
+  opacity: 0.75;
+  transform: translate(0%, -150%);
+  width: fit-content;
+}
+div{
+  text-align: center;
+  padding: 0;
+  padding: -10px;
+  height: auto;
+  color: white;
+  width: auto;
+}
+main{ 
+  background: #090a0c;
+  width: auto;
+  padding: 0 50px;
+  height: auto;
+  color: #737373;
+}
+aside{
+  padding: 20px;
+  width: 30%;
+  font-size: 20px;
+}
+div.aftermain{
+  background: #737373;
+  padding: 20px;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  color: #090a0c;
+  display: grid;
+  grid-template-colums: 100px 100px 100px;
+}
+aside, article{display: inline-block;}
+
+article{
+  width: 70%;
+  padding: 20px;
+  font-size: 20px;
+}
+div.aftermain img{max-width: 500px; }
+div.aftermain p{
+  font-weight: bold; 
+  padding: 0 40px;
+  font-style: italic;
+}
+
+aside h1, article h1{
+  color: white; 
+  text-shadow: 2px 2px 2px gray;
+}
+
+@media screen and (max-width: 800px)
+{
+  aside, article{width: 100%;}
+  div.aftermain img{max-width: 250px; }
+}
+
+div.next{
+  background: white;
+  width: auto;
+  height: auto;
+  color: #090a0c;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+div.next h1{text-shadow:  2px 2px 3px gray;}
+div.last {
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://imj31us4am50.github.io/imgs/mountfromup.jpg') ;
+  height: 2000px;
+  width: auto;
+}
+div.outro{
+  background: #737373;
+  position: relative;
+  top: 100%;
+  height: auto;
+  padding: 30px;
+  color: #999999;
+}
+div.outro a, div.outro p{color: white;}
+div#abc{
+  padding: 80px 30px;
+  font-size: 32px;
+  line-height: 5.5rem;
+}
+div#abc h1{text-shadow: 2px 2px 3px gray; font-style: italic;}
